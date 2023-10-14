@@ -5,51 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <link rel="shortcut icon" type="image/ico" href="./favicon.ico" />
     <title>Piano Keys</title>
 </head>
 
 <body>
     <p class='title'>Piano Player</p>
     <p id='demo'>Follow the song below to play the piano.</p>
-    <section class="piano">
-        <section id='c-key' class="key">
+    <section class="piano disable-select">
+        <section id='c-key' data-key='C' class="key">
             <section class='keynote'>C</section>
         </section>
-        <section id='c-sharp-key' class="black-key">
+        <section id='c-sharp-key' data-key='Cs' class="black-key">
             <section class='black-keynote'>C#</section>
         </section>
-        <section id='d-key' class="key">
+        <section id='d-key' data-key='D' class="key">
             <section class='keynote'>D</section>
         </section>
-        <section id='d-sharp-key' class="black-key">
+        <section id='d-sharp-key' data-key='Ds' class="black-key">
             <section class='black-keynote'>D#</section>
         </section>
-        <section id='e-key' class="key">
+        <section id='e-key' data-key='E' class="key">
             <section class='keynote'>E</section>
         </section>
-        <section id='f-key' class="key">
+        <section id='f-key' data-key='F' class="key">
             <section class='keynote'>F</section>
         </section>
-        <section id='f-sharp-key' class="black-key">
+        <section id='f-sharp-key' data-key='Fs' class="black-key">
             <section class='black-keynote'>F#</section>
         </section>
-        <section id='g-key' class="key">
+        <section id='g-key' data-key='G' class="key">
             <section class='keynote'>G</section>
         </section>
-        <section id='g-sharp-key' class="black-key">
+        <section id='g-sharp-key' data-key='Gs' class="black-key">
             <section class='black-keynote'>G#</section>
         </section>
-        <section id='a-key' class="key">
+        <section id='a-key' data-key='A' class="key">
             <section class='keynote'>A</section>
         </section>
-        <section id='a-sharp-key' class="black-key">
+        <section id='a-sharp-key' data-key='As' class="black-key">
             <section class='black-keynote'>A#</section>
         </section>
-        <section id='b-key' class="key">
+        <section id='b-key' data-key='B' class="key">
             <section class='keynote'>B</section>
         </section>
-        <section id='high-c-key' class="key">
+        <section id='high-c-key' data-key='Ch' class="key">
             <div class='keynote'>C</div>
         </section>
     </section>
@@ -83,25 +83,26 @@
             <section id="word-optional">END</section>
             <section id="letter-note-optional">A</section>
         </section>
+
         <button id="first-next-line">Line 2</button>
         <button id="second-next-line">Line 3</button>
         <button id="third-next-line">Line 4</button>
         <button id="fourth-next-line">Reset</button>
     </section>
 
-    <audio src="/sounds/a-key.mp3" id="A"></audio>
-    <audio src="/sounds/a-sharp-key.mp3" id="As"></audio>
-    <audio src="/sounds/b-key.mp3" id="B"></audio>
-    <audio src="/sounds/c-key.mp3" id="C"></audio>
-    <audio src="/sounds/c-sharp-key.mp3" id="Cs"></audio>
-    <audio src="/sounds/d-key.mp3" id="D"></audio>
-    <audio src="/sounds/d-sharp-key.mp3" id="Ds"></audio>
-    <audio src="/sounds/e-key.mp3" id="E"></audio>
-    <audio src="/sounds/f-key.mp3" id="F"></audio>
-    <audio src="/sounds/f-sharp-key.mp3" id="Fs"></audio>
-    <audio src="/sounds/g-key.mp3" id="G"></audio>
+    <audio src="sounds/a-key.mp3" id="A"></audio>
+    <audio src="sounds/a-sharp-key.mp3" id="As"></audio>
+    <audio src="sounds/b-key.mp3" id="B"></audio>
+    <audio src="sounds/c-key.mp3" id="C"></audio>
+    <audio src="sounds/c-sharp-key.mp3" id="Cs"></audio>
+    <audio src="sounds/d-key.mp3" id="D"></audio>
+    <audio src="sounds/d-sharp-key.mp3" id="Ds"></audio>
+    <audio src="sounds/e-key.mp3" id="E"></audio>
+    <audio src="sounds/f-key.mp3" id="F"></audio>
+    <audio src="sounds/f-sharp-key.mp3" id="Fs"></audio>
+    <audio src="sounds/g-key.mp3" id="G"></audio>
     <audio src="/sounds/g-sharp-key.mp3" id="Gs"></audio>
-    <audio src="/sounds/high-c-key.mp3" id="Ch"></audio>
+    <audio src="sounds/high-c-key.mp3" id="Ch"></audio>
 
     <script src="main.js"></script>
 
