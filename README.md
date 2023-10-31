@@ -1,6 +1,6 @@
 # Codecademy Piano Keys Project
 
-## Link to project: <a href="https://hamza-musa.github.io/MoroccoBlog/" target="_blank">Visit Here</a>
+## Link to project: <a href="https://hamza-musa.github.io/Piano-Keys/" target="_blank">Visit Here</a>
 
 <a href="https://hamza-musa.github.io/Piano-Keys/" target="_blank">
 <img src="/PianoMaker.gif" width="100%" alt="Error"/> </a>
