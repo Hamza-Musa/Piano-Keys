@@ -31,22 +31,21 @@ This was a practice project from the full stack program at Codeacademy.
 <br>
 **Bonus: I added notes sounds by myself.**
 
-## Optimizations
+## Optimizations/Improvements
 
+- Adding sound
+- Adding other songs
 - Continue refining the design
-- Added other pages
-- More functionality
-- Interactive Nav
+- More fun Interactivity
 
 ## Lessons Learned:
 
-- The box model comprises a set of properties used to create space around and between HTML elements.
-  The height and width of a content area can be set in pixels or percentages.
-- Borders surround the content area and padding of an element. The colour, style, and thickness of a border can be set with CSS properties.
-- Padding is the space between the content area and the border. It can be set in pixels or per cent.
-- Margin is the amount of spacing outside of an element’s border.
-- Horizontal margins add, so the total space between the borders of adjacent elements is equal to the sum of the right margin of one element and the left margin of the adjacent element.
-- Vertical margins collapse, so the space between vertically adjacent elements is equal to the larger margin.
-  margin: 0 auto horizontally centres an element inside of its parent content area if it has a width.
-- The overflow property can be set to display, hidden, or scroll, and dictates how HTML will render content that overflows its parent’s content area.
-- The visibility property can hide or show elements.
+- DOM Manipulation: Through this project, I gained a deeper understanding of DOM (Document Object Model) manipulation in JavaScript. I learned how to dynamically interact with HTML elements, such as creating event listeners and updating content based on user input.
+
+- Event Handling: Implementing event handling was a crucial aspect of this project. I learned how to capture and respond to user actions, such as mouse clicks or keyboard inputs, to create an interactive user experience.
+
+- Project Collaboration: While HTML and CSS were provided, I took ownership of the JavaScript functionality. This project taught me the importance of collaboration, as well as the significance of integrating different technologies seamlessly to achieve project goals.
+
+- Problem-Solving Skills: Throughout the development process, I encountered various challenges and bugs that required creative problem-solving skills to resolve. These challenges provided opportunities for growth and helped me develop my debugging abilities.
+
+- Continuous Improvement: Reflecting on this project, I realize the importance of continuous improvement. Moving forward, I aim to refine the design, add additional features such as more songs, and enhance the interactivity to provide users with an even more enjoyable experience.
