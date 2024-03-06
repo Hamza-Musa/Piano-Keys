@@ -1,4 +1,5 @@
-# Codecademy Piano Keys Project Link to project: <a href="https://hamza-musa.github.io/MoroccoBlog/" target="_blank">Visit Here</a>
+# Codecademy Piano Keys Project 
+## Link to project: <a href="https://hamza-musa.github.io/MoroccoBlog/" target="_blank">Visit Here</a>
 
 <a href="https://hamza-musa.github.io/MoroccoBlog/" target="_blank">
 <img src="assets/MoroccanBlog.gif" width="100%" alt="Error"/> </a> 
