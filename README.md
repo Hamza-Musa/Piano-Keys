@@ -33,10 +33,12 @@ This was a practice project from the full stack program at Codeacademy.
 
 ## Optimizations/Improvements
 
-- Adding sound
 - Adding other songs
-- Continue refining the design
+- Bigger Keyboard
+- Different instruments
 - More fun Interactivity
+- Continue refining the design
+
 
 ## Lessons Learned:
 
